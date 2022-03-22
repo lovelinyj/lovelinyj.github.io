@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>linux on Musky's Blog</title><link>https://lovelinyj.github.io/tags/linux/</link><description>Recent content in linux on Musky's Blog</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Thu, 17 Mar 2022 08:28:27 +0800</lastBuildDate><atom:link href="https://lovelinyj.github.io/tags/linux/index.xml" rel="self" type="application/rss+xml"/><item><title>Linux的ln捷徑設定教學</title><link>https://lovelinyj.github.io/posts/linux_ln_setting/</link><pubDate>Thu, 17 Mar 2022 08:28:27 +0800</pubDate><guid>https://lovelinyj.github.io/posts/linux_ln_setting/</guid><description>使用ln建立連結檔案有兩種方式
+硬連結 軟連結 建立硬連結 使用相同的inode的連結檔案
+ln 123.txt 123_ln.txt
+ln [來源檔案位置] [捷徑檔案位置]
+硬連結無法連結一個資料夾
+建立軟連結 靠著絕對路徑或相對路徑來指向目標檔案的連結檔
+ln -s 123.txt 123_ln.txt
+ln -s [來源檔案位置] [捷徑檔案位置]
+若要取消軟連結，可使用
+unlink 123_ln.txt
+在預設狀況下，若連結已經存在，建立連結檔案時會出現錯誤。
+ln -s 123.txt 123_ln.txt
+ln: failed to create symbolic link '123_ln.txt': 檔案已存在
+若要強制覆蓋舊連結，須加上 -f 參數
+ln -f -s 123.txt 123_ln.txt
+除了強制覆蓋外，也可以使用 -b 參數，將舊連結檔案備份，再建立新連結檔。
+ln -b -s 123.txt 123_ln.txt</description></item></channel></rss>
