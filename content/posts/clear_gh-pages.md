@@ -1,7 +1,8 @@
 ---
 title: "Clear_gh Pages"
 date: 2022-03-17T12:42:13+08:00
-draft: false
+type: post
+tags: [github,clear]
 ---
 
 清除gh_pages的資料

@@ -1,7 +1,7 @@
 ---
 title: "將github同步到新設備"
 date: 2022-03-17T12:14:53+08:00
-draft: false
+type: post
 ---
 
 電腦重新安裝了，github的資料都不見了，怎麼辦!?

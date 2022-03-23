@@ -1,35 +1,48 @@
 baseURL = 'http://lovelinyj.github.io/'
+defaultContentLanguage = "en"
 languageCode = 'en-us'
+
 title = "Musky's blog"
-theme = "anatole"
+
+theme = "gokarna"
+
+# Automatically generate robots.txt
+enableRobotsTXT = true
 
 [params]
-title = "I'm Musky"
-author = "Musky"
-description = "Call me Musky"
-profilePicture = "images/profile.jpg"
-
-[[params.socialIcons]]
-icon = "fas fa-envelope"
-title = "e-mail"
-url = "mailto:musky@gmail.com"
-
+description = "Welcome! Wish You Have A Good Day!"
+showPostsOnHomePage = "popular"
+footer = "Musky"
+enableRobotsTXT = true
 [menu]
+  [[menu.main]]
+    # Unique identifer for a menu item
+    identifier = "posts"
+
+    url = "/posts/"
+    
+    # You can add extra information before the name (HTML format is supported), such as icons
+    pre = ""
+
+    # You can add extra information after the name (HTML format is supported), such as icons
+    post = ""
+
+    # Display name
+    name = "Posts"
+
+    # Weights are used to determine the ordering
+    weight = 1
 
   [[menu.main]]
-  name = "Home"
-  identifier = "home"
-  weight = 100
-  url = "/"
-
+    identifier = "tags"
+    name = "Tags"
+    url = "/tags/"
+    weight = 2
+    
   [[menu.main]]
-  name = "Posts"
-  weight = 200
-  identifier = "posts"
-  url = "/post/"
-
-  [[menu.main]]
-  name = "About"
-  weight = 300
-  identifier = "about"
-  url = "/about/"
+    identifier = "github"
+    url = "https://github.com/lovelinyj"
+    weight = 3
+    
+    # We use feather-icons: https://feathericons.com/
+    pre = "<span data-feather='github'></span>"
