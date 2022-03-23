@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>hugo on Musky's blog</title><link>http://lovelinyj.github.io/tags/hugo/</link><description>Recent content in hugo on Musky's blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 17 Mar 2022 08:28:27 +0800</lastBuildDate><atom:link href="http://lovelinyj.github.io/tags/hugo/index.xml" rel="self" type="application/rss+xml"/><item><title>使用Hugo在Github上建立個人部落格</title><link>http://lovelinyj.github.io/posts/github_hugo/</link><pubDate>Thu, 17 Mar 2022 08:28:27 +0800</pubDate><guid>http://lovelinyj.github.io/posts/github_hugo/</guid><description>建立一個自己的部落格其實不難
+運用hugo建立部落格資料夾
+hugo new site lovelinyj.github.io
+進到該資料夾
+cd lovelinyj.github.io
+git初始化
+git init
+clone submodule
+git submodule add https://github.com/526avijitgupta/gokarna.git themes/gokarna or git clone https://github.com/526avijitgupta/gokarna.git themes/gokarna
+修改config.toml
+增加一行themes= &amp;quot;gokarna&amp;quot;
+新增部落格文章
+hugo new post/first.md
+push到github上
+git add.
+git commit -m 'new blog'
+git push origin main
+#### 詳細說明請參照github https://gokarna-hugo.netlify.app/posts/theme-documentation-basics/</description></item></channel></rss>
