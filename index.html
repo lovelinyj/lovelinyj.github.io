@@ -12,7 +12,9 @@ Musky
 <span aria-hidden=true class=navbar-burger__line></span>
 <span aria-hidden=true class=navbar-burger__line></span></a><nav class=nav><ul class=nav__list id=navMenu><li class=nav__list-item><a class=nav__link--active href=/ title>Home</a></li><li class=nav__list-item><a href=/post/ title>Posts</a></li><li class=nav__list-item><a href=/about/ title>About</a></li></ul><ul class="nav__list nav__list--end"><li class=nav__list-item><div class=themeswitch><a title="Switch Theme"><i class="fas fa-adjust fa-fw" aria-hidden=true></i></a></div></li></ul></nav></div></header><div class="post
 animated fadeInDown"><div class=post__content></div></div><div class="post
-animated fadeInDown"><div class=post__content><h3><a href=/post/clone_git/>CLONE_GIT</a></h3><p>在新設備克隆部落格原始碼 clone <a href=https://github.com/loveliny/lovelinyj.github.io.git>https://github.com/loveliny/lovelinyj.github.io.git</a>
+animated fadeInDown"><div class=post__content><h3><a href=/post/clone_git/>CLONE_GIT</a></h3><p>在新設備重新編輯blog內容
+所需步驟：
+在新設備克隆部落格原始碼 clone <a href=https://github.com/loveliny/lovelinyj.github.io.git>https://github.com/loveliny/lovelinyj.github.io.git</a>
 克隆樣式來源 clone <a href=https://github.com/lxndrblz/anatole.git>https://github.com/lxndrblz/anatole.git</a> ./themes/anatole/
 開始編輯囉</p></div><div class=post__footer><em class="fas fa-calendar-day"></em>
 <span class=post__footer-date>Wed, Mar 23, 2022</span></div></div><div class="post
@@ -40,9 +42,15 @@ ln: failed to create symbolic link &lsquo;123_ln.txt&rsquo;: 檔案已存在
 ln -f -s 123.txt 123_ln.txt
 除了強制覆蓋外，也可以使用 -b 參數，將舊連結檔案備份，再建立新連結檔。
 ln -b -s 123.txt 123_ln.txt</p></div><div class=post__footer><em class="fas fa-calendar-day"></em>
-<span class=post__footer-date>Thu, Mar 17, 2022</span>
-<span><a class=tag href=/tags/linux/>linux</a></span></div></div><div class="post
-animated fadeInDown"><div class=post__content><h3><a href=/post/github_hugo/>運用GITHUB建立個人部落格，使用HUGO</a></h3><p>建立一個自己的部落格其實不難</p></div><div class=post__footer><em class="fas fa-calendar-day"></em>
+<span class=post__footer-date>Thu, Mar 17, 2022</span></div></div><div class="post
+animated fadeInDown"><div class=post__content><h3><a href=/post/github_hugo/>運用GITHUB建立個人部落格，使用HUGO</a></h3><p>建立一個自己的部落格其實不難
+運用hugo建立部落格資料夾 hugo new site lovelinyj.github.io
+進到該資料夾 cd lovelinyj.github.io
+git初始化 git init
+套用hugo樣式 git submodule add <a href=https://github.com/lxndrblz/anatole.git>https://github.com/lxndrblz/anatole.git</a> themes/anatole
+修改config.toml 增加`themes= “anatole”
+新增部落格文章 hugo new post/first.md
+push到github上 git add. git commit -m &rsquo;new blog&rsquo; git push origin main</p></div><div class=post__footer><em class="fas fa-calendar-day"></em>
 <span class=post__footer-date>Thu, Mar 17, 2022</span></div></div><div class=pagination></div></main></div><footer class="footer footer__base"><ul class=footer__list><li class=footer__item>&copy;
 Musky
 2022</li></ul></footer><script type=text/javascript src=/js/medium-zoom.min.a3fd0638ada4e3cec287e49a604b4a828cfef33a669afe60b96575761fff5cf3.js integrity="sha256-o/0GOK2k487Ch+SaYEtKgoz+8zpmmv5guWV1dh//XPM=" crossorigin=anonymous></script></body></html>
