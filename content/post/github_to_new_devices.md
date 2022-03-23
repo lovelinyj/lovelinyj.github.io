@@ -1,7 +1,6 @@
 ---
 title: "將github同步到新設備"
 date: 2022-03-17T12:14:53+08:00
-draft: true
 Description: ""
 Tags: []
 Categories: []
