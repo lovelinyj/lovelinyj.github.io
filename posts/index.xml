@@ -36,4 +36,32 @@ push到github上
 git add.
 git commit -m 'new blog'
 git push origin main
-#### 詳細說明請參照github https://gokarna-hugo.netlify.app/posts/theme-documentation-basics/</description></item></channel></rss>
+#### 詳細說明請參照github https://gokarna-hugo.netlify.app/posts/theme-documentation-basics/</description></item><item><title>卡典西德貼紙</title><link>http://lovelinyj.github.io/posts/%E5%8D%A1%E5%85%B8%E8%A5%BF%E5%BE%B7%E8%B2%BC%E7%B4%99/</link><pubDate>Sat, 13 Nov 2021 16:39:34 +0000</pubDate><guid>http://lovelinyj.github.io/posts/%E5%8D%A1%E5%85%B8%E8%A5%BF%E5%BE%B7%E8%B2%BC%E7%B4%99/</guid><description>卡典西德貼紙</description></item><item><title>台式泡菜</title><link>http://lovelinyj.github.io/posts/%E5%8F%B0%E5%BC%8F%E6%B3%A1%E8%8F%9C/</link><pubDate>Sat, 13 Nov 2021 16:39:34 +0000</pubDate><guid>http://lovelinyj.github.io/posts/%E5%8F%B0%E5%BC%8F%E6%B3%A1%E8%8F%9C/</guid><description>高麗菜半顆 紅蘿蔔半條 白醋150克 糖130克 蒜頭5瓣 鹽1.5% 辣椒2根</description></item><item><title>美祿饅頭</title><link>http://lovelinyj.github.io/posts/%E7%BE%8E%E7%A5%BF%E9%A5%85%E9%A0%AD/</link><pubDate>Sat, 13 Nov 2021 14:39:34 +0000</pubDate><guid>http://lovelinyj.github.io/posts/%E7%BE%8E%E7%A5%BF%E9%A5%85%E9%A0%AD/</guid><description>這次做美祿饅頭
+將最後的100g中筋麵粉消耗掉
+加入40cc的水
+以及3湯匙的美祿
+用筷子攪拌成棉絮狀後
+開始用力的搓揉
+這時候手粉很重要
+發現一直搓揉的時候
+麵糰表面會被拉扯開
+無法形成漂亮的光滑面
+如果在揉麵團時加入手粉
+就比較容易形成光滑面
+揉好後放置30分鐘
+等麵糰第一次發酵
+發酵失敗&amp;hellip;
+可能是因為酵母菌放太久
+也可能是因為沒有包保鮮膜
+麵糰表皮太乾
+完全沒有膨脹
+重新再揉一下麵糰
+加了一點水
+包好保鮮膜後
+放入電鍋加蓋發酵
+在第一次揉麵團時 最後形成光滑面前 加一點水分 能使麵糰不易撕破 表皮容易變得光滑</description></item><item><title>Build Github Blog</title><link>http://lovelinyj.github.io/posts/build-github-blog/</link><pubDate>Wed, 10 Nov 2021 00:55:48 +0000</pubDate><guid>http://lovelinyj.github.io/posts/build-github-blog/</guid><description>When I build a github blog I need prepare something:
+a github account a github repository(use {yourname).github.ii) hugo use hugo to made new site
+hugo new site {yourname}.github.io cd {yourname}.github.io git init
+chose a beautiful theme
+try run hugo server
+push blog to github site</description></item><item><title>Blog Build</title><link>http://lovelinyj.github.io/posts/blog-build/</link><pubDate>Tue, 09 Nov 2021 16:39:34 +0000</pubDate><guid>http://lovelinyj.github.io/posts/blog-build/</guid><description>my blog finial build</description></item><item><title>Hello World</title><link>http://lovelinyj.github.io/posts/hello-world/</link><pubDate>Tue, 09 Nov 2021 16:08:44 +0000</pubDate><guid>http://lovelinyj.github.io/posts/hello-world/</guid><description>This is a hello world page</description></item></channel></rss>
