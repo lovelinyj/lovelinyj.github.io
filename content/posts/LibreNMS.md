@@ -7,7 +7,7 @@ tags: [software,open_source]
 
 # LibreNMS  
 
->	[Web](https://docs.librenms.org/)  
+>	[Web](https://www.librenms.org/)  
 	[Docs](https://docs.librenms.org/)  
 
 # Install  
