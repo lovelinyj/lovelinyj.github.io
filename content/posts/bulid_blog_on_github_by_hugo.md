@@ -22,8 +22,11 @@ tags: [github,hugo]
 4. clone submodule
 
 	`git submodule add https://github.com/526avijitgupta/gokarna.git themes/gokarna`
+	
 	or
+	
 	`git clone https://github.com/526avijitgupta/gokarna.git themes/gokarna`
+	
 5. 修改config.toml
 
 	增加一行`themes= "gokarna"`
@@ -40,6 +43,6 @@ tags: [github,hugo]
 	
 	`git push origin main`
 	
-		#### 詳細說明請參照github
+		#### 詳細說明請參照gokarna
 		https://gokarna-hugo.netlify.app/posts/theme-documentation-basics/
 		
