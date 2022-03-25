@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>chocolatey on Musky's blog</title><link>http://lovelinyj.github.io/tags/chocolatey/</link><description>Recent content in chocolatey on Musky's blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Fri, 25 Mar 2022 10:23:26 +0800</lastBuildDate><atom:link href="http://lovelinyj.github.io/tags/chocolatey/index.xml" rel="self" type="application/rss+xml"/><item><title>Chocolatey</title><link>http://lovelinyj.github.io/posts/chocolatey/</link><pubDate>Fri, 25 Mar 2022 10:23:26 +0800</pubDate><guid>http://lovelinyj.github.io/posts/chocolatey/</guid><description>Chocolatey 工具介紹：
+chocolatey是一個windows使用的套件管理工具
+就像是linux的apt,pcman等等
+不妨試試看
+安裝方式：
+在powershell中輸入
+Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1')) 官方網站</description></item></channel></rss>
