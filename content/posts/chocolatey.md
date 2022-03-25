@@ -2,7 +2,7 @@
 title: "Chocolatey"
 date: 2022-03-25T10:23:26+08:00
 type: post
-tag: [chocolatey,software]
+tags: [chocolatey,software]
 ---
 
 # Chocolatey
