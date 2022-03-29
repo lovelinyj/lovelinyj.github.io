@@ -1,4 +1,18 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Musky's blog</title><link>http://lovelinyj.github.io/posts/</link><description>Recent content in Posts on Musky's blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Fri, 25 Mar 2022 11:31:42 +0800</lastBuildDate><atom:link href="http://lovelinyj.github.io/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>大航海時代四威力加強版-寶物</title><link>http://lovelinyj.github.io/posts/%E5%A4%A7%E8%88%AA%E6%B5%B7%E6%99%82%E4%BB%A3%E5%9B%9B%E5%AF%B6%E7%89%A9/</link><pubDate>Fri, 25 Mar 2022 11:31:42 +0800</pubDate><guid>http://lovelinyj.github.io/posts/%E5%A4%A7%E8%88%AA%E6%B5%B7%E6%99%82%E4%BB%A3%E5%9B%9B%E5%AF%B6%E7%89%A9/</guid><description>北海總合22個寶物 (北海)(防具)3件 艾提拉套裝[防55]北55 東20 曼努埃爾在主艦隊，到拉古札觸發事件 (伍丁.蒂雅.杏太郎版)酒館請喝酒
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Musky's blog</title><link>http://lovelinyj.github.io/posts/</link><description>Recent content in Posts on Musky's blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Tue, 29 Mar 2022 15:48:43 +0800</lastBuildDate><atom:link href="http://lovelinyj.github.io/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>CTFd</title><link>http://lovelinyj.github.io/posts/ctfd/</link><pubDate>Tue, 29 Mar 2022 15:48:43 +0800</pubDate><guid>http://lovelinyj.github.io/posts/ctfd/</guid><description>比過許多CTF的競賽，終於想要建置一個自己的CTF網站
+參考Github上的CTFd
+clone git git clone https://github.com/CTFd/CTFd.git
+move to CTFd `cd ./CTFd
+install pip install -r requirements.txt
+or
+bash prepare.sh
+Modify Modify CTFd/config.ini to your liking
+RUN python server.py
+or
+flask run</description></item><item><title>Windows 子系統 Linux 版 (WSL)</title><link>http://lovelinyj.github.io/posts/wsl/</link><pubDate>Mon, 28 Mar 2022 15:20:05 +0800</pubDate><guid>http://lovelinyj.github.io/posts/wsl/</guid><description>Windows subsystem Linux (WSL) 可讓開發人員直接在未修改的 Windows 上執行 GNU/Linux 環境（包括大部分的命令列工具、公用程式和應用程式），而不會產生傳統虛擬機器或雙重開機安裝的額外負荷。
+適用於 Linux 的 Windows 子系統可讓開發人員執行 GNU/Linux 環境 (包括大部分的命令列工具、公用程式和應用程式)，直接在 Windows 上執行，不需進行修改，不會造成傳統虛擬機器或 dualboot 設定的額外負荷。
+Windows Docs
+WSL vs WSL2 從WSL更新到WSL2的主要原因：
+增加檔案系統效能 支援完整系統呼叫相容性 比較功能 功能 WSL 1 WSL 2 Windows 和 Linux 之間的整合 ✅ ✅ 快速開機時間 ✅ ✅ 相較于傳統虛擬機器的小型 resource 墊腳列印 ✅ ✅ 以最新版的 VMware 和 VirtualBox 執行 ✅ ✅ 受控 VM ❌ ✅ 完整的 Linux 核心 ❌ ✅ 完整的系統呼叫相容性 ❌ ✅ OS 檔案系統之間的效能 ✅ ❌ 安裝WSL 必要條件 必須執行 Windows 10 2004 版和更高版本 (組建19041和更新版本的) 或 Windows 11。</description></item><item><title>大航海時代四威力加強版-寶物</title><link>http://lovelinyj.github.io/posts/%E5%A4%A7%E8%88%AA%E6%B5%B7%E6%99%82%E4%BB%A3%E5%9B%9B%E5%AF%B6%E7%89%A9/</link><pubDate>Fri, 25 Mar 2022 11:31:42 +0800</pubDate><guid>http://lovelinyj.github.io/posts/%E5%A4%A7%E8%88%AA%E6%B5%B7%E6%99%82%E4%BB%A3%E5%9B%9B%E5%AF%B6%E7%89%A9/</guid><description>北海總合22個寶物 (北海)(防具)3件 艾提拉套裝[防55]北55 東20 曼努埃爾在主艦隊，到拉古札觸發事件 (伍丁.蒂雅.杏太郎版)酒館請喝酒
 蒼藍橡木盾[防24]北43 西4
 不死鳥頭盔[防38]北54 西0 開普敦碼頭，主艦隊必須要有塞維。
 (伍丁.蒂雅.杏太郎版)酒館請喝酒
