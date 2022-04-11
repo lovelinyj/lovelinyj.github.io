@@ -1,4 +1,13 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Musky's blog</title><link>http://lovelinyj.github.io/</link><description>Recent content on Musky's blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Tue, 29 Mar 2022 15:48:43 +0800</lastBuildDate><atom:link href="http://lovelinyj.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>CTFd</title><link>http://lovelinyj.github.io/posts/ctfd/</link><pubDate>Tue, 29 Mar 2022 15:48:43 +0800</pubDate><guid>http://lovelinyj.github.io/posts/ctfd/</guid><description>比過許多CTF的競賽，終於想要建置一個自己的CTF網站
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Musky's blog</title><link>http://lovelinyj.github.io/</link><description>Recent content on Musky's blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 11 Apr 2022 23:07:03 +0800</lastBuildDate><atom:link href="http://lovelinyj.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>ubuntu network setting</title><link>http://lovelinyj.github.io/posts/ubuntu-network-setting/</link><pubDate>Mon, 11 Apr 2022 23:07:03 +0800</pubDate><guid>http://lovelinyj.github.io/posts/ubuntu-network-setting/</guid><description>ubuntu network setting 手動設定 確認網卡介面 ip add
+新增固定IP sudo ip address add 10.102.66.200/24 dev [interface]
+重啟網卡介面 ip link set dev [interface] down ip link set dev [interface] up
+設定預設路由 sudo ip route add default via 10.102.66.1
+新增DNS sudo nano /etc/resolv.conf 新增 nameserver 8.8.8.8
+開機自動設定IP 修改netplan sudo nano /etc/netplan/99_config.yaml 設定下列內容
+network: version: 2 renderer: networdd ethernets: eth0: addresses: [10.</description></item><item><title>Vlan_set</title><link>http://lovelinyj.github.io/posts/vlan_set/</link><pubDate>Mon, 11 Apr 2022 23:07:03 +0800</pubDate><guid>http://lovelinyj.github.io/posts/vlan_set/</guid><description>vlan設定 Switch#show vlan brief
+建立VLAN Switch(config)#vlan 10 Switch(config-vlan)# Switch(config-vlan)#name Attack
+Switch(config)#interface range gigabitEthernet 1/0/1-9 Switch(config-if-range)#switchport access vlan 10
+Switch(config)#int vlan 10 Switch(config-if)#ip helper-address 192.168.100.200</description></item><item><title>CTFd</title><link>http://lovelinyj.github.io/posts/ctfd/</link><pubDate>Tue, 29 Mar 2022 15:48:43 +0800</pubDate><guid>http://lovelinyj.github.io/posts/ctfd/</guid><description>比過許多CTF的競賽，終於想要建置一個自己的CTF網站
 參考Github上的CTFd
 clone git git clone https://github.com/CTFd/CTFd.git
 move to CTFd `cd ./CTFd
