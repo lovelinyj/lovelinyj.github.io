@@ -21,9 +21,9 @@ type: post
 > `sudo ip route add default via 10.102.66.1`
 
 5. 新增DNS
-> `sudo nano /etc/resolv.conf`
-> 新增
-> `nameserver 8.8.8.8`
+> `sudo nano /etc/resolv.conf`  
+新增  
+`nameserver 8.8.8.8`  
 
 
 # 開機自動設定IP
