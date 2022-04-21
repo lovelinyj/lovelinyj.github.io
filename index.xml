@@ -1,4 +1,22 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Musky's blog</title><link>http://lovelinyj.github.io/</link><description>Recent content on Musky's blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Tue, 19 Apr 2022 21:31:55 +0800</lastBuildDate><atom:link href="http://lovelinyj.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>電腦必備工具</title><link>http://lovelinyj.github.io/posts/%E9%9B%BB%E8%85%A6%E5%BF%85%E5%82%99%E5%B7%A5%E5%85%B7/</link><pubDate>Tue, 19 Apr 2022 21:31:55 +0800</pubDate><guid>http://lovelinyj.github.io/posts/%E9%9B%BB%E8%85%A6%E5%BF%85%E5%82%99%E5%B7%A5%E5%85%B7/</guid><description>新電腦必備軟體 Chocolatey Git VsCode</description></item><item><title>股票選擇心得</title><link>http://lovelinyj.github.io/posts/%E8%82%A1%E7%A5%A8%E9%81%B8%E6%93%87%E5%BF%83%E5%BE%97/</link><pubDate>Sat, 16 Apr 2022 00:13:55 +0800</pubDate><guid>http://lovelinyj.github.io/posts/%E8%82%A1%E7%A5%A8%E9%81%B8%E6%93%87%E5%BF%83%E5%BE%97/</guid><description>要談股票前，先討論買、賣行為的產生 買和賣
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Musky's blog</title><link>http://lovelinyj.github.io/</link><description>Recent content on Musky's blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Tue, 19 Apr 2022 21:31:55 +0800</lastBuildDate><atom:link href="http://lovelinyj.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>電腦必備工具</title><link>http://lovelinyj.github.io/posts/%E9%9B%BB%E8%85%A6%E5%BF%85%E5%82%99%E5%B7%A5%E5%85%B7/</link><pubDate>Tue, 19 Apr 2022 21:31:55 +0800</pubDate><guid>http://lovelinyj.github.io/posts/%E9%9B%BB%E8%85%A6%E5%BF%85%E5%82%99%E5%B7%A5%E5%85%B7/</guid><description>新電腦必備軟體 Chocolatey
+Chocolatey是一個Windows下的軟體套件管理器，讓使用者可以像在使用Yum和APT一樣，在Windows中實現自動化輕鬆管理Windows軟體的所有方面。
+安裝方式：
+Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString(&amp;lsquo;https://community.chocolatey.org/install.ps1'))
+Git
+管理GitHub的工具
+choco install git
+VsCode
+微軟出的開發工具，支持多種語言
+choco install vscode
+7-zip
+強大的壓縮解壓縮工具
+choco install 7zip
+notepad++
+這個就不用多說了
+choco install notepadplusplus
+putty
+用於 Windows 和 Unix 平台的 Telnet 和 SSH 工具。
+choco install putty</description></item><item><title>股票選擇心得</title><link>http://lovelinyj.github.io/posts/%E8%82%A1%E7%A5%A8%E9%81%B8%E6%93%87%E5%BF%83%E5%BE%97/</link><pubDate>Sat, 16 Apr 2022 00:13:55 +0800</pubDate><guid>http://lovelinyj.github.io/posts/%E8%82%A1%E7%A5%A8%E9%81%B8%E6%93%87%E5%BF%83%E5%BE%97/</guid><description>要談股票前，先討論買、賣行為的產生 買和賣
 一個願打、一個願挨
 在貨幣尚未發展時期
 家裡捕魚的，基本上後代子孫也是捕魚的
