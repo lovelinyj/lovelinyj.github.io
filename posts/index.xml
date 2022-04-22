@@ -1,4 +1,18 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Musky's blog</title><link>http://lovelinyj.github.io/posts/</link><description>Recent content in Posts on Musky's blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Tue, 19 Apr 2022 21:31:55 +0800</lastBuildDate><atom:link href="http://lovelinyj.github.io/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>電腦必備工具</title><link>http://lovelinyj.github.io/posts/%E9%9B%BB%E8%85%A6%E5%BF%85%E5%82%99%E5%B7%A5%E5%85%B7/</link><pubDate>Tue, 19 Apr 2022 21:31:55 +0800</pubDate><guid>http://lovelinyj.github.io/posts/%E9%9B%BB%E8%85%A6%E5%BF%85%E5%82%99%E5%B7%A5%E5%85%B7/</guid><description>新電腦必備軟體 Chocolatey
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Musky's blog</title><link>http://lovelinyj.github.io/posts/</link><description>Recent content in Posts on Musky's blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Fri, 22 Apr 2022 13:40:37 +0800</lastBuildDate><atom:link href="http://lovelinyj.github.io/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Git</title><link>http://lovelinyj.github.io/posts/git/</link><pubDate>Fri, 22 Apr 2022 13:40:37 +0800</pubDate><guid>http://lovelinyj.github.io/posts/git/</guid><description>Git指令教學 開啟git tutorial git help tutorial
+查詢log 圖形化顯示log
+git log --graph
+建立新專案 初始化
+$ git init
+您現在已經初始化了工作目錄——您可能會注意到創建了一個名為“.git”的新目錄。
+使用git add告訴Git對當前目錄下所有文件進行快照
+$ git add .
+此快照現在存儲在 Git 稱為“index”的臨時暫存區域中。
+您可以使用 git commit 將索引的內容永久存儲在存儲庫中：
+$ git commit
+這將提示您輸入提交消息。您現在已將項目的第一個版本存儲在 Git 中。
+設定global 在進行任何操作之前，最好使用您的姓名和公共電子郵件地址向 Git 介紹自己。
+$ git config --global user.name &amp;quot;Your Name Comes Here&amp;quot;
+$ git config --global user.email you@yourdomain.example.com</description></item><item><title>電腦必備工具</title><link>http://lovelinyj.github.io/posts/%E9%9B%BB%E8%85%A6%E5%BF%85%E5%82%99%E5%B7%A5%E5%85%B7/</link><pubDate>Tue, 19 Apr 2022 21:31:55 +0800</pubDate><guid>http://lovelinyj.github.io/posts/%E9%9B%BB%E8%85%A6%E5%BF%85%E5%82%99%E5%B7%A5%E5%85%B7/</guid><description>新電腦必備軟體 Chocolatey
 Chocolatey是一個Windows下的軟體套件管理器，讓使用者可以像在使用Yum和APT一樣，在Windows中實現自動化輕鬆管理Windows軟體的所有方面。
 安裝方式：
 Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString(&amp;lsquo;https://community.chocolatey.org/install.ps1'))
