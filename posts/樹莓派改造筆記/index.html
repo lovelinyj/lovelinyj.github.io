@@ -5,5 +5,6 @@
 3. 讀卡機
 首先到官網上下載Raspberry Pi OS
 [網頁連結](https://www.raspberrypi.com/software/)
-</code></pre></p></div></div></main><footer class=footer><span>&copy; 2022 Musky</span>
+</code></pre><h3 id=安裝完可以做什麼>安裝完可以做什麼</h3><h4 id=內網穿透>內網穿透</h4><p>Ngork (<a href=https://ngrok.com/>https://ngrok.com/</a>)<br>一款免費的內網穿透軟體</p><blockquote><p>wget <a href=https://bin.equinox.io/c/bNyj1mQVY4c/ngrok-v3-stable-linux-arm.tgz>https://bin.equinox.io/c/bNyj1mQVY4c/ngrok-v3-stable-linux-arm.tgz</a><br>tar zxvf ./ngrok-v3-stable-linux-arm.tgz<br>ngrok config add-authtoken [your token]<br>ngrok http 80</p></blockquote><p>開機自動啟動Ngrok</p><blockquote><p>寫好一個script
+nano /home//autorun.sh</p></blockquote><blockquote><p>/home//ngrok http 80</p></blockquote><p>然後在/etc/rc.local中新增開機執行指令</p><blockquote><p>/home//autorun.sh</p></blockquote></p></div></div></main><footer class=footer><span>&copy; 2022 Musky</span>
 <span>Made with &#10084;&#65039; using <a target=_blank href=https://github.com/526avijitgupta/gokarna>Gokarna</a></span></footer></body></html>
