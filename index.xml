@@ -1,4 +1,22 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Musky's blog</title><link>http://lovelinyj.github.io/</link><description>Recent content on Musky's blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 27 Apr 2022 08:47:40 +0800</lastBuildDate><atom:link href="http://lovelinyj.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>資安事件緊急應變暨證據處理</title><link>http://lovelinyj.github.io/posts/%E8%B3%87%E5%AE%89%E4%BA%8B%E4%BB%B6%E7%B7%8A%E6%80%A5%E6%87%89%E8%AE%8A%E6%9A%A8%E8%AD%89%E6%93%9A%E8%99%95%E7%90%86/</link><pubDate>Wed, 27 Apr 2022 08:47:40 +0800</pubDate><guid>http://lovelinyj.github.io/posts/%E8%B3%87%E5%AE%89%E4%BA%8B%E4%BB%B6%E7%B7%8A%E6%80%A5%E6%87%89%E8%AE%8A%E6%9A%A8%E8%AD%89%E6%93%9A%E8%99%95%E7%90%86/</guid><description>資安事件緊急應變暨證據處理 大綱 資安法及個資法之要求 常見之防禦漏洞及應有預防措施 資安緊急事件前置及通報處理 資安緊急事件報案處理、災損復原規劃、現場管理證物監管 現場蒐證注意事項 數位證據搜集及後續處理</description></item><item><title>樹莓派改造筆記</title><link>http://lovelinyj.github.io/posts/%E6%A8%B9%E8%8E%93%E6%B4%BE%E6%94%B9%E9%80%A0%E7%AD%86%E8%A8%98/</link><pubDate>Fri, 22 Apr 2022 14:10:03 +0800</pubDate><guid>http://lovelinyj.github.io/posts/%E6%A8%B9%E8%8E%93%E6%B4%BE%E6%94%B9%E9%80%A0%E7%AD%86%E8%A8%98/</guid><description>今天家裡多了一個raspberry pi 3B+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Musky's blog</title><link>http://lovelinyj.github.io/</link><description>Recent content on Musky's blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Fri, 29 Apr 2022 23:44:15 +0800</lastBuildDate><atom:link href="http://lovelinyj.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>駭客就在你旁邊</title><link>http://lovelinyj.github.io/posts/%E9%A7%AD%E5%AE%A2%E5%B0%B1%E5%9C%A8%E4%BD%A0%E6%97%81%E9%82%8A/</link><pubDate>Fri, 29 Apr 2022 23:44:15 +0800</pubDate><guid>http://lovelinyj.github.io/posts/%E9%A7%AD%E5%AE%A2%E5%B0%B1%E5%9C%A8%E4%BD%A0%E6%97%81%E9%82%8A/</guid><description>駭客就你旁邊 內網安全攻防滲透你死我活 徐焱、賈曉璐著 只有真正了解內網攻擊的手法，才能知道如何為企業建設完整的安全系統 APT攻擊成為最火爆的網路安全話題之一 MS08067實驗室 chapter 01 內網滲透測試基礎 內網也指區域網(Local Area Network, LAN)，指在某一區域內由多台電腦互連而成的電腦群組，網路拓樸範圍通常在數公里以內。
+1.1 內網基礎知識 1.1.1 工作群組(Work Group) 1.1.2 網域(Domain)、網域控制站(Domain Controoler, DC) 單網域 父系網域和子網域
+出於管理及其他需求，需要在網路中劃分多個網域，第一個網域稱為父系網域，各分部的網域稱為該網域的子網域。 網域樹(Tree)
+多個網域透過建立信任關係組成的集合。 網域森林(Forest)
+多個網域樹透過建立信任關係組成的集合。 域名伺服器(Domain Name Server, DNS):
+實現域名(Domain Name)和與之相對應的IP位址(IP Address)轉換的伺服器。 1.1.3 主動目錄 主動目錄(Active Directory, AD)是指網域環境中提供目錄服務的元件。
+目錄用於儲存有關網路物件(使用者、群組、電腦、共用資源、印表機和聯絡人等)的資訊。
+主動目錄實現了目錄服務，為企業提供了網路環境的集中式管理機制。
+主動目錄的邏輯結構包括了組織單位(OU)、網域、網域樹、網域森林。
+主動目錄主要提供以下功能：
+帳號集中管理
+所有帳號均儲存在伺服器中，以便執行命令和重置密碼。 軟體集中管理
+統一推送軟體、安裝網路印表機等。利用軟體發佈策略分發軟體，可以讓使用者自由選擇需要安裝的軟體。 環境集中管理
+統一用戶端桌面、IE、TCP/IP協定等設定。 增強安全性
+統一部署防毒軟體和病毒掃描任務、集中管理使用者的電腦許可權、統一制定使用者密碼策略等。可以監控網路、對資料進行統一管理。 更可靠、更短的當機時間
+利用集群、負載平衡等技術對伺服器進行災難恢復設定。網路更可靠、當機時間更短。 1.1.4 網域控制站和主動目錄的區別 如果網路規模龐大，就要把網路中的許多物件，如電腦、使用者、使用者群組、印表機、共用檔案等，分門別類、井然有序地放在一個擁有層次結構的資料庫，就是主動目錄資料庫，簡稱AD資料庫。
+要實現網域環境，就要裝AD，在內網中的一台電腦上裝了AD，它就變成了DC。
+1.1.5 安全網域的劃分 在一個使用路由器連接的內網中，可以將網路劃分為三個區域：
+安全等級最高的內網。 安全等級中等的DMZ。 安全等級最低的外網(Internet)。 這三個區域負責不同的任務，因此需要不同的存取策略。</description></item><item><title>資安事件緊急應變暨證據處理</title><link>http://lovelinyj.github.io/posts/%E8%B3%87%E5%AE%89%E4%BA%8B%E4%BB%B6%E7%B7%8A%E6%80%A5%E6%87%89%E8%AE%8A%E6%9A%A8%E8%AD%89%E6%93%9A%E8%99%95%E7%90%86/</link><pubDate>Wed, 27 Apr 2022 08:47:40 +0800</pubDate><guid>http://lovelinyj.github.io/posts/%E8%B3%87%E5%AE%89%E4%BA%8B%E4%BB%B6%E7%B7%8A%E6%80%A5%E6%87%89%E8%AE%8A%E6%9A%A8%E8%AD%89%E6%93%9A%E8%99%95%E7%90%86/</guid><description>資安事件緊急應變暨證據處理 大綱 資安法及個資法之要求 常見之防禦漏洞及應有預防措施 資安緊急事件前置及通報處理 資安緊急事件報案處理、災損復原規劃、現場管理證物監管 現場蒐證注意事項 數位證據搜集及後續處理</description></item><item><title>樹莓派改造筆記</title><link>http://lovelinyj.github.io/posts/%E6%A8%B9%E8%8E%93%E6%B4%BE%E6%94%B9%E9%80%A0%E7%AD%86%E8%A8%98/</link><pubDate>Fri, 22 Apr 2022 14:10:03 +0800</pubDate><guid>http://lovelinyj.github.io/posts/%E6%A8%B9%E8%8E%93%E6%B4%BE%E6%94%B9%E9%80%A0%E7%AD%86%E8%A8%98/</guid><description>今天家裡多了一個raspberry pi 3B+
 馬上裝了raspberry os
 樹莓派安裝步驟 所需工具 1. 樹莓派 2. SD卡 3. 讀卡機 首先到官網上下載Raspberry Pi OS [網頁連結](https://www.raspberrypi.com/software/)</description></item><item><title>Git</title><link>http://lovelinyj.github.io/posts/git/</link><pubDate>Fri, 22 Apr 2022 13:40:37 +0800</pubDate><guid>http://lovelinyj.github.io/posts/git/</guid><description>Git指令教學 開啟git tutorial git help tutorial
 查詢log 圖形化顯示log
