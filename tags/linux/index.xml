@@ -14,4 +14,7 @@ ln: failed to create symbolic link '123_ln.txt': 檔案已存在
 若要強制覆蓋舊連結，須加上 -f 參數
 ln -f -s 123.txt 123_ln.txt
 除了強制覆蓋外，也可以使用 -b 參數，將舊連結檔案備份，再建立新連結檔。
-ln -b -s 123.txt 123_ln.txt</description></item></channel></rss>
+ln -b -s 123.txt 123_ln.txt
+ln 會將原本的檔案名稱後方加上 ~ ，作為檔名
+若要更改備份檔案名稱的結尾，可使用 -S 參數指定新名稱
+ln -b -S &amp;quot;.backupfile&amp;quot; -s 123.txt 123_ln.txt</description></item></channel></rss>

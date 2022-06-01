@@ -16,7 +16,11 @@
 利用集群、負載平衡等技術對伺服器進行災難恢復設定。網路更可靠、當機時間更短。 1.1.4 網域控制站和主動目錄的區別 如果網路規模龐大，就要把網路中的許多物件，如電腦、使用者、使用者群組、印表機、共用檔案等，分門別類、井然有序地放在一個擁有層次結構的資料庫，就是主動目錄資料庫，簡稱AD資料庫。
 要實現網域環境，就要裝AD，在內網中的一台電腦上裝了AD，它就變成了DC。
 1.1.5 安全網域的劃分 在一個使用路由器連接的內網中，可以將網路劃分為三個區域：
-安全等級最高的內網。 安全等級中等的DMZ。 安全等級最低的外網(Internet)。 這三個區域負責不同的任務，因此需要不同的存取策略。</description></item><item><title>資安事件緊急應變暨證據處理</title><link>http://lovelinyj.github.io/posts/%E8%B3%87%E5%AE%89%E4%BA%8B%E4%BB%B6%E7%B7%8A%E6%80%A5%E6%87%89%E8%AE%8A%E6%9A%A8%E8%AD%89%E6%93%9A%E8%99%95%E7%90%86/</link><pubDate>Wed, 27 Apr 2022 08:47:40 +0800</pubDate><guid>http://lovelinyj.github.io/posts/%E8%B3%87%E5%AE%89%E4%BA%8B%E4%BB%B6%E7%B7%8A%E6%80%A5%E6%87%89%E8%AE%8A%E6%9A%A8%E8%AD%89%E6%93%9A%E8%99%95%E7%90%86/</guid><description>資安事件緊急應變暨證據處理 大綱 資安法及個資法之要求 常見之防禦漏洞及應有預防措施 資安緊急事件前置及通報處理 資安緊急事件報案處理、災損復原規劃、現場管理證物監管 現場蒐證注意事項 數位證據搜集及後續處理</description></item><item><title>樹莓派改造筆記</title><link>http://lovelinyj.github.io/posts/%E6%A8%B9%E8%8E%93%E6%B4%BE%E6%94%B9%E9%80%A0%E7%AD%86%E8%A8%98/</link><pubDate>Fri, 22 Apr 2022 14:10:03 +0800</pubDate><guid>http://lovelinyj.github.io/posts/%E6%A8%B9%E8%8E%93%E6%B4%BE%E6%94%B9%E9%80%A0%E7%AD%86%E8%A8%98/</guid><description>今天家裡多了一個raspberry pi 3B+
+安全等級最高的內網。 安全等級中等的DMZ。 安全等級最低的外網(Internet)。 這三個區域負責不同的任務，因此需要不同的存取策略。
+DMZ稱為隔離區，是為了解決安裝防火牆後外部網路不能存取內部網路服務器的問題而設立的非安全系統與安全系統之間的緩衝區。
+網路邊界上一般會部署防火牆及入侵偵測、入侵防禦產品等。如果有Web用，還會設定WAF。
+設定一個擁有DMZ的網路時，通常需要定義以下存取控制策略：
+內網可以存取外網</description></item><item><title>資安事件緊急應變暨證據處理</title><link>http://lovelinyj.github.io/posts/%E8%B3%87%E5%AE%89%E4%BA%8B%E4%BB%B6%E7%B7%8A%E6%80%A5%E6%87%89%E8%AE%8A%E6%9A%A8%E8%AD%89%E6%93%9A%E8%99%95%E7%90%86/</link><pubDate>Wed, 27 Apr 2022 08:47:40 +0800</pubDate><guid>http://lovelinyj.github.io/posts/%E8%B3%87%E5%AE%89%E4%BA%8B%E4%BB%B6%E7%B7%8A%E6%80%A5%E6%87%89%E8%AE%8A%E6%9A%A8%E8%AD%89%E6%93%9A%E8%99%95%E7%90%86/</guid><description>資安事件緊急應變暨證據處理 大綱 資安法及個資法之要求 常見之防禦漏洞及應有預防措施 資安緊急事件前置及通報處理 資安緊急事件報案處理、災損復原規劃、現場管理證物監管 現場蒐證注意事項 數位證據搜集及後續處理</description></item><item><title>樹莓派改造筆記</title><link>http://lovelinyj.github.io/posts/%E6%A8%B9%E8%8E%93%E6%B4%BE%E6%94%B9%E9%80%A0%E7%AD%86%E8%A8%98/</link><pubDate>Fri, 22 Apr 2022 14:10:03 +0800</pubDate><guid>http://lovelinyj.github.io/posts/%E6%A8%B9%E8%8E%93%E6%B4%BE%E6%94%B9%E9%80%A0%E7%AD%86%E8%A8%98/</guid><description>今天家裡多了一個raspberry pi 3B+
 馬上裝了raspberry os
 樹莓派安裝步驟 所需工具 1. 樹莓派 2. SD卡 3. 讀卡機 首先到官網上下載Raspberry Pi OS [網頁連結](https://www.raspberrypi.com/software/) 安裝完可以做什麼 內網穿透 Ngork (https://ngrok.com/)
 一款免費的內網穿透軟體
@@ -45,7 +49,7 @@ $ git config --global user.name &amp;quot;Your Name Comes Here&amp;quot;
 $ git config --global user.email you@yourdomain.example.com</description></item><item><title>電腦必備工具</title><link>http://lovelinyj.github.io/posts/%E9%9B%BB%E8%85%A6%E5%BF%85%E5%82%99%E5%B7%A5%E5%85%B7/</link><pubDate>Tue, 19 Apr 2022 21:31:55 +0800</pubDate><guid>http://lovelinyj.github.io/posts/%E9%9B%BB%E8%85%A6%E5%BF%85%E5%82%99%E5%B7%A5%E5%85%B7/</guid><description>新電腦必備軟體 Chocolatey
 Chocolatey是一個Windows下的軟體套件管理器，讓使用者可以像在使用Yum和APT一樣，在Windows中實現自動化輕鬆管理Windows軟體的所有方面。
 安裝方式：
-Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString(&amp;lsquo;https://community.chocolatey.org/install.ps1'))
+Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
 Git
 管理GitHub的工具
 choco install git
@@ -60,7 +64,15 @@ notepad++
 choco install notepadplusplus
 putty
 用於 Windows 和 Unix 平台的 Telnet 和 SSH 工具。
-choco install putty</description></item><item><title>股票選擇心得</title><link>http://lovelinyj.github.io/posts/%E8%82%A1%E7%A5%A8%E9%81%B8%E6%93%87%E5%BF%83%E5%BE%97/</link><pubDate>Sat, 16 Apr 2022 00:13:55 +0800</pubDate><guid>http://lovelinyj.github.io/posts/%E8%82%A1%E7%A5%A8%E9%81%B8%E6%93%87%E5%BF%83%E5%BE%97/</guid><description>要談股票前，先討論買、賣行為的產生 買和賣
+choco install putty
+PatchMyPc
+choco install pctch-my-pc
+Brave瀏覽器
+choco install brave
+qbittorren BT下載管理工具
+choco install qbittorrent
+IDM (Internet download manager)
+choco install internet-download-manager</description></item><item><title>股票選擇心得</title><link>http://lovelinyj.github.io/posts/%E8%82%A1%E7%A5%A8%E9%81%B8%E6%93%87%E5%BF%83%E5%BE%97/</link><pubDate>Sat, 16 Apr 2022 00:13:55 +0800</pubDate><guid>http://lovelinyj.github.io/posts/%E8%82%A1%E7%A5%A8%E9%81%B8%E6%93%87%E5%BF%83%E5%BE%97/</guid><description>要談股票前，先討論買、賣行為的產生 買和賣
 一個願打、一個願挨
 在貨幣尚未發展時期
 家裡捕魚的，基本上後代子孫也是捕魚的
@@ -118,7 +130,9 @@ A成立了一家上市公司
 最後C以最高價21買進了B的股票
 這時候公司的股票價值成為了21
 一年過後，公司沒有賺錢，相反的還賠錢了
-C手持3張股票，想要減少損失賣出1張</description></item><item><title>通貨膨脹</title><link>http://lovelinyj.github.io/posts/%E9%80%9A%E8%B2%A8%E8%86%A8%E8%84%B9/</link><pubDate>Fri, 15 Apr 2022 23:50:51 +0800</pubDate><guid>http://lovelinyj.github.io/posts/%E9%80%9A%E8%B2%A8%E8%86%A8%E8%84%B9/</guid><description>通貨膨脹是什麼 舉例來說，就是你現在有100元，剛好可以買一碗牛肉麵
+C手持3張股票，想要減少損失賣出1張
+這時候大家都覺得該股票沒有買入的必要
+於是C只好一直將股價降低</description></item><item><title>通貨膨脹</title><link>http://lovelinyj.github.io/posts/%E9%80%9A%E8%B2%A8%E8%86%A8%E8%84%B9/</link><pubDate>Fri, 15 Apr 2022 23:50:51 +0800</pubDate><guid>http://lovelinyj.github.io/posts/%E9%80%9A%E8%B2%A8%E8%86%A8%E8%84%B9/</guid><description>通貨膨脹是什麼 舉例來說，就是你現在有100元，剛好可以買一碗牛肉麵
 但是在過了5年之後，100元已經買不起一碗牛肉麵
 因為牛肉麵漲價到一碗130元
 此時
@@ -173,7 +187,8 @@ ip routing
 新增
 nameserver 8.8.8.8
 開機自動設定IP 修改netplan sudo nano /etc/netplan/99_config.yaml 設定下列內容
-network: version: 2 renderer: networdd ethernets: eth0: addresses: [10.</description></item><item><title>Vlan_set</title><link>http://lovelinyj.github.io/posts/vlan_set/</link><pubDate>Mon, 11 Apr 2022 23:07:03 +0800</pubDate><guid>http://lovelinyj.github.io/posts/vlan_set/</guid><description>查詢vlan設定 Switch#show vlan brief
+network: version: 2 renderer: networdd ethernets: eth0: addresses: [10.10.10.2/24] gateway4: 10.10.10.1 nameservers: addresses: [10.10.10.1]
+執行網路計畫 sudo netplan apply</description></item><item><title>Vlan_set</title><link>http://lovelinyj.github.io/posts/vlan_set/</link><pubDate>Mon, 11 Apr 2022 23:07:03 +0800</pubDate><guid>http://lovelinyj.github.io/posts/vlan_set/</guid><description>查詢vlan設定 Switch#show vlan brief
 建立VLAN Switch(config)#vlan 10
 Switch(config-vlan)#name Attack
 Switch(config)#interface range gigabitEthernet 1/0/1-9
@@ -209,7 +224,13 @@ WSL vs WSL2 從WSL更新到WSL2的主要原因：
 拉奧孔劍[攻34]漢堡遺跡 (送酒女沙金出現遺跡進入就會給了) (伍丁.蒂雅.杏太郎版)北55 東11 酒館請喝酒
 贖罪鎮魂劍[攻40]北60 東27 酒館請喝酒
 羅恩格林配劍[攻44]北52 東4 克莉斯汀娜在主艦隊，漢堡廣場 (伍丁.蒂雅.杏太郎版)酒館請喝酒 北53東9
-(船首像)3件 王者像.</description></item><item><title>網路裝置服務監控系統-LibreNMS</title><link>http://lovelinyj.github.io/posts/librenms/</link><pubDate>Fri, 25 Mar 2022 11:31:42 +0800</pubDate><guid>http://lovelinyj.github.io/posts/librenms/</guid><description>LibreNMS Web
+(船首像)3件 王者像. 佛利奧&amp;ndash;斯德哥爾摩&amp;ndash;遺跡事件(須有當地的霸者之証)
+(伍丁.蒂雅.杏太郎版)北62 東6 主艦隊有阿爾&amp;ndash;奧斯陸&amp;ndash;入港事件-
+提督像. 北54東16 酒館喝一杯 (伍丁.蒂雅.杏太郎版)東南亞酒館事件
+小豬像.倫敦進港(須有克莉絲汀娜) (伍丁.蒂雅.杏太郎版)酒館喝一杯 北57西1
+(女性渴望)4件 畫細雪的長袍.斯德哥爾摩 使用地 (地中海)亞力山卓
+高級放大鏡、斯德哥爾摩 (伍丁.蒂雅.杏太郎版).倫敦購買 使用地 (新大陸)委拉克路斯
+冰凍玫瑰、漢堡.斯德哥爾摩同業公會任務 (伍丁.蒂雅.杏太郎版)&amp;ndash;同業公會購買 使用地 (北海)使用地斯德哥爾摩</description></item><item><title>網路裝置服務監控系統-LibreNMS</title><link>http://lovelinyj.github.io/posts/librenms/</link><pubDate>Fri, 25 Mar 2022 11:31:42 +0800</pubDate><guid>http://lovelinyj.github.io/posts/librenms/</guid><description>LibreNMS Web
 Docs
 Install Prepare Linux Server Install Required Packages Add librenms user Download LibreNMS Set permissions Install PHP dependencies Set timezone Configure MariaDB Configure PHP-FPM Configure Web Server</description></item><item><title>Chocolatey</title><link>http://lovelinyj.github.io/posts/chocolatey/</link><pubDate>Fri, 25 Mar 2022 10:23:26 +0800</pubDate><guid>http://lovelinyj.github.io/posts/chocolatey/</guid><description>Chocolatey 工具介紹：
 chocolatey是一個windows使用的套件管理工具
@@ -241,7 +262,10 @@ ln: failed to create symbolic link '123_ln.txt': 檔案已存在
 若要強制覆蓋舊連結，須加上 -f 參數
 ln -f -s 123.txt 123_ln.txt
 除了強制覆蓋外，也可以使用 -b 參數，將舊連結檔案備份，再建立新連結檔。
-ln -b -s 123.txt 123_ln.txt</description></item><item><title>使用Hugo在Github上建立個人部落格</title><link>http://lovelinyj.github.io/posts/bulid_blog_on_github_by_hugo/</link><pubDate>Thu, 17 Mar 2022 08:28:27 +0800</pubDate><guid>http://lovelinyj.github.io/posts/bulid_blog_on_github_by_hugo/</guid><description>建立一個自己的部落格其實不難
+ln -b -s 123.txt 123_ln.txt
+ln 會將原本的檔案名稱後方加上 ~ ，作為檔名
+若要更改備份檔案名稱的結尾，可使用 -S 參數指定新名稱
+ln -b -S &amp;quot;.backupfile&amp;quot; -s 123.txt 123_ln.txt</description></item><item><title>使用Hugo在Github上建立個人部落格</title><link>http://lovelinyj.github.io/posts/bulid_blog_on_github_by_hugo/</link><pubDate>Thu, 17 Mar 2022 08:28:27 +0800</pubDate><guid>http://lovelinyj.github.io/posts/bulid_blog_on_github_by_hugo/</guid><description>建立一個自己的部落格其實不難
 運用hugo建立部落格資料夾
 hugo new site lovelinyj.github.io
 進到該資料夾
