@@ -2,7 +2,8 @@
 title: "Build Github Blog"
 date: 2021-11-10T00:55:48Z
 layout: post
-tag: [github]
+tags: [github]
+categories: Information Github
 ---
 When I build a github blog
 I need prepare something:

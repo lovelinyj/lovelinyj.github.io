@@ -2,6 +2,8 @@
 title: "Cisco_route_setting"
 date: 2022-04-15T23:47:12+08:00
 layout: post
+tags: [Network]
+categories: Router
 ---
 # Cisco L3 Switch 路由設定  
 將每個vlan設定好IP後  

@@ -2,6 +2,8 @@
 title: "Dotnet Core使用SQLite資料庫"
 date: 2026-03-12T16:48:43+08:00
 layout: post
+tags: [coding]
+categories: Coding Dotnet
 ---
 ## 最近在學習用dotnet core寫自己的網頁，小型服務基本上用SQLite當作資料庫就可以了
 ### 1.vscode在終端機執行

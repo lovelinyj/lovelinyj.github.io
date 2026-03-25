@@ -1,6 +1,9 @@
 ---
-layout: post
 title:  "使用jekyll-theme-chirpy主題建立Github Page"
+date: 2026-03-18T16:48:43+08:00
+layout: post
+tags: [github]
+categories: Github
 ---
 # 使用jekyll-theme-chirpy主題建立Github Page
 1. 拉取儲存庫

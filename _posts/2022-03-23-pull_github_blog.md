@@ -2,7 +2,8 @@
 title: "pull github blog"
 date: 2022-03-23T09:41:28+08:00
 layout: post
-tags: [github,pull]
+tags: [github]
+categories: Information Github
 ---
 ## pull github blog on a new device
 

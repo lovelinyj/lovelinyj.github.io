@@ -2,6 +2,8 @@
 title: "ubuntu network setting"
 date: 2022-04-11T23:07:03+08:00
 layout: post
+tags: [Linux]
+categories: Linux Network
 ---
 # ubuntu network setting
 

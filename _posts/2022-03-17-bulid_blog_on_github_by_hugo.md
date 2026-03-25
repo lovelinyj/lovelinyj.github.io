@@ -2,7 +2,8 @@
 title: "使用Hugo在Github上建立個人部落格"
 date: 2022-03-17T08:28:27+08:00
 layout: post
-tags: [github,hugo]
+tags: [github]
+categories: Information Github
 ---
 
 建立一個自己的部落格其實不難

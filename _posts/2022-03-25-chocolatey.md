@@ -2,7 +2,8 @@
 title: "Chocolatey"
 date: 2022-03-25T10:23:26+08:00
 layout: post
-tags: [chocolatey,software]
+tags: [software]
+categories: Software Chocolatey
 ---
 
 # Chocolatey

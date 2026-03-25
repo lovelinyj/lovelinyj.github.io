@@ -1,8 +1,9 @@
 ---
-layout: post
 title:  "Linux 磁碟空間分析神器：ncdu"
 date:   2026-03-19 16:42:18 +0800
-categories: Tools ncdu Linux
+layout: post
+tags: [software]
+categories: Software Ncdu
 ---
 # [工具推薦] Linux 磁碟空間分析神器：ncdu
 在維護 Linux 伺服器或開發環境（如 WSL）時，最常遇到的問題就是「硬碟空間又滿了」。

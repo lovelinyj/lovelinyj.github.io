@@ -3,6 +3,7 @@ title: "Linux的ln捷徑設定教學"
 date: 2022-03-17T08:28:27+08:00
 layout: post
 tags: [linux]
+categories: Information Linux
 ---
 
 使用ln建立連結檔案有兩種方式
